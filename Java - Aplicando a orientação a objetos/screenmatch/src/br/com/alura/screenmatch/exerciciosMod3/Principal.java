@@ -21,6 +21,35 @@ public class Principal {
 //        System.out.println("Carro na cor: "+chevette.getCor());
 //        chevette.calculaMenor();
 //        chevette.calculaMaior();
+
+        //Exercicio 2
+//        Gato gatito = new Gato();
+//        Cachorro doguinho = new Cachorro();
+//
+//        gatito.arranharMoveis();
+//        doguinho.abanarRabo();
+
+        //Exercicio 3
+//        ContaCorrente corrente = new ContaCorrente();
+//        System.out.println("Digite seu saldo agora: ");
+//        corrente.setSaldo(sc.nextDouble());
+//        System.out.println("Digite o valor do seu saque: ");
+//        corrente.sacar(sc.nextDouble());
+//        System.out.println("Digite o valor do seu deposito: ");
+//        corrente.depositar(sc.nextDouble());
+//        corrente.consultarSaldo();
+//        corrente.cobrarTarifaMensal();
+
+
+        VerificadorPrimo verificador = new VerificadorPrimo();
+        verificador.verificarSeEhPrimo(17);
+
+        GeradorPrimo gerador = new GeradorPrimo();
+        int proximoPrimo = gerador.gerarProximoPrimo(17);
+        System.out.println("O próximo primo após 17 é: " + proximoPrimo);
+
+        NumerosPrimos numerosPrimos = new NumerosPrimos();
+        numerosPrimos.listarPrimos(30);
     }
 
 }
